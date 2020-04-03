@@ -16,7 +16,7 @@ const options = [
 		text: 'change_support_request_type {uuid:"(uuid)", type:"GENERAL_ENQUIRY"}'
 	},
 	{
-		text: 'close_support_request {uuid:"(uuid)"}}'
+		text: 'close_support_request {uuid:"(uuid)"}'
 	},
 	{ text: "new_agent {skills:{1:true, 2:true}}" },
 	{ text: 'new_agent {skills:{"GENERAL_ENQUIRY":true, "CHECK_BILL":true}}' },
@@ -28,7 +28,7 @@ const options = [
 		text: 'update_agent_availability {uuid:"(uuid)", available:false}'
 	},
 	{ text: 'take_support_request {uuid:"(uuid)"}' },
-	{ text: 'drop_support_request {uuid:"(uuid)' },
+	{ text: 'drop_support_request {uuid:"(uuid)"}' },
 	{ text: "ping {}" },
 	{ text: "get_support_request_status {}" },
 	{

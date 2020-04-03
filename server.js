@@ -6,7 +6,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static("public"));
 
-const port = 3000;
+const port = 5000;
 app.get("/", (req, res) => {
 	res.render(path.join(__dirname + "public" + "/index.html"));
 });

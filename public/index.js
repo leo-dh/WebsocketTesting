@@ -3,7 +3,7 @@ import options from "./options.js";
 const URL = "ws://localhost:4000/";
 let responseArea;
 
-let UUID = "uuid";
+let UUID = null;
 
 let form = new Vue({
 	el: "#form",
@@ -70,6 +70,7 @@ let initApplication = () => {
 	};
 	$(".toast").toast({ delay: 1500 });
 };
+
 let socket = new WebSocket(URL);
 socket.addEventListener("message", event => {
 	console.log(event.data);
